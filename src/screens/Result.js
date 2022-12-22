@@ -9,36 +9,12 @@ function Result() {
   const [results, getResults] = useResults(inputValue);
   useEffect(() => {
     getResults();
-    console.log("results", inputValue);
   }, []);
 
-  //
-  // API
-  // :
-  // "Movie Quote"
-  // Auth
-  // :
-  // ""
-  // Category
-  // :
-  // "Video"
-  // Cors
-  // :
-  // "yes"
-  // Description
-  // :
-  // "Random Movie and Series Quotes"
-  // HTTPS
-  // :
-  // true
-  // Link
-  // :
-  // "https://github.com/F4R4N/movie-quote/"
   return (
     <div class="container">
       {results.length > 0 && (
         <>
-          {console.log(results)}
           <div class="header">
             <div class="header-title"> {results[0].API}</div>
             <a href={results[0].Link} class="header-link">

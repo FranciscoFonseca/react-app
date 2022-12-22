@@ -24,7 +24,6 @@ function SearchResults() {
       <div className="card-container">
         {results &&
           results.map((entry) => {
-            console.log(entry);
             return (
               <div className="card" onClick={() => HandleClick(entry.API)}>
                 <div

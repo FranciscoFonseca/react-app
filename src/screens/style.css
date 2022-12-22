@@ -1,0 +1,131 @@
+.full-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .card-image {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .card-content {
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .card-description {
+    font-size: 14px;
+    color: #666;
+  }
+
+  .card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .header-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  .header-link {
+    color: blue;
+    text-decoration: none;
+  }
+
+  .header-link:hover {
+    text-decoration: underline;
+  }
+
+  .api-properties {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .api-property {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .api-property-label {
+    font-weight: bold;
+  }
+
+  .api-property-value {
+    color: #666;
+  }
+
+  
+
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+  .home-input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .home-input {
+    flex: 1;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .home-button {
+    height: 40px;
+    padding: 0 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .home-button:hover {
+    background-color: #0066cc;
+    cursor: pointer;
+  }

@@ -25,7 +25,7 @@ function SearchResults() {
         {results &&
           results.map((entry) => {
             return (
-              <div className="card" onClick={() => HandleClick(entry.API)}>
+              <div className="card" onClick={() => HandleClick(entry.API)} key={entry.API}>
                 <div
                   className="card-image"
                   style={{

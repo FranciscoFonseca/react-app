@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import "./style.css";
 import { useLocation } from "react-router-dom";
 import { useResults } from "./utils";
@@ -36,7 +36,9 @@ function Result() {
             </div>
             <div class="api-property">
               <div class="api-property-label">HTTPS:</div>
-              <div class="api-property-value">{results[0].HTTPS.toString()}</div>
+              <div class="api-property-value">
+                {results[0].HTTPS.toString()}
+              </div>
             </div>
             <div class="api-property">
               <div class="api-property-label">Link:</div>
